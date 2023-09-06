@@ -29,22 +29,33 @@ The primary objective of this project is to unearth unique customer segments to 
 
 #### Visualizations
 - A rich array of visualizations including scatterplots, 3D scatterplots, histograms, boxplots, and KDE plots employed.
-<img src="https://github.com/flashdash101/Customer-Segmentation-and-Churn/assets/97402685/503d9062-9e0a-42b5-9d1c-9b9b76c210ab" width="250" height="250"> <img src="https://github.com/flashdash101/Customer-Segmentation-and-Churn/assets/97402685/8e4cecce-74c9-4e6d-8b6f-2169c71bd78c" width="250" height="250"><img src="https://github.com/flashdash101/Customer-Segmentation-and-Churn/assets/97402685/e9b7d0ea-6dac-44e6-8b1d-988877878912" width= "250" height = "250">
+<img src="https://github.com/flashdash101/Customer-Segmentation-and-Churn/assets/97402685/503d9062-9e0a-42b5-9d1c-9b9b76c210ab" width="250" height="250"><img src="https://github.com/flashdash101/Customer-Segmentation-and-Churn/assets/97402685/8e4cecce-74c9-4e6d-8b6f-2169c71bd78c" width="250" height="250"><img src="https://github.com/flashdash101/Customer-Segmentation-and-Churn/assets/97402685/e9b7d0ea-6dac-44e6-8b1d-988877878912" width= "250" height = "250">
 
 
 ### Insights
 - Median spending score for females is approximately 50, while for males, it's around 75, signifying gender-based spending disparities.
 - Age exhibits a relatively weak correlation with spending score (-0.12).
 - Cluster 3 predominantly comprises younger customers with lower income but higher spending scores.
+  
+![image](https://github.com/flashdash101/Customer-Segmentation-and-Churn/assets/97402685/19060573-c44f-45bb-a779-c6996f5e19d5)
 
-### Customer Churn Rate Analysis
+<img src = "https://github.com/flashdash101/Customer-Segmentation-and-Churn/assets/97402685/eac35ee2-8e16-4fe4-b6bd-59061d8f32f8" width = "300" height = "300"> <img src= "https://github.com/flashdash101/Customer-Segmentation-and-Churn/assets/97402685/1dd44793-d35a-4e1f-8fcd-f11b8e8b8c92" width = "300" height = "300">
+
+
+
 #### Methodology
 - K-Means Clustering employed.
 - Elbow Method indicated 4 or 5 clusters as optimal.
 
+- 
+
 #### Visualizations
 - Creation of 3D scatterplots to visualize clusters using age, income, and spending score.
 - Mean values analyzed for age, income, and spending score within each cluster.
+
+![image](https://github.com/flashdash101/Customer-Segmentation-and-Churn/assets/97402685/1548bc2f-1f72-467c-95b7-693040c4b6fd)
+![image](https://github.com/flashdash101/Customer-Segmentation-and-Churn/assets/97402685/bf6a256e-eba8-4033-a7e7-d72df7959dc3)
+
 
 ### Insights
 - Cluster 0, characterized by a higher mean age (mean: 60.2), displays negative mean values for annual income (mean: $26.4k) and spending score (mean: 23.7), signifying older customers with lower spending tendencies.
